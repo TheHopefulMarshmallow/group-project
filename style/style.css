@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 .header .head {
-  background-image: url(back/b.jpg);
+  background-image: url("back/b.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   width: 100%;
