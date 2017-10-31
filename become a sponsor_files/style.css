@@ -275,18 +275,14 @@ table {
 
 .lastp {
   padding-top: 40px;
-  background-color: black;
-  padding-bottom: 30px; }
+  background-color: black; }
   .lastp .mon {
     margin-left: 20px;
-    color: white;
-    padding-bottom: 20px; }
+    color: white; }
   .lastp .lorab {
     margin-left: 20px;
-    color: #ebebeb;
-    padding-bottom: 20px; }
+    color: #ebebeb; }
   .lastp .monmon {
-    padding-top: 30px;
     margin-left: 20px;
     color: #ebebeb; }
 
