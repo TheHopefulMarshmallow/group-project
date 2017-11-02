@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  text-align: left; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.mon {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left; }
+
+.monmon {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left; }
+
+.lorab {
+  font-family: "Lora";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left; }
+
+.lorao {
+  font-family: "Lora";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left; }
+
+.header {
+  background-image: url("../back/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: inline-block;
+  color: white; }
+  .header .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; }
+  .header .dropdown {
+    position: inherit;
+    display: inline; }
+  .header .dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: transparent;
+    min-width: 146px;
+    box-shadow: 0px 8px 16px 0px grey;
+    z-index: 1; }
+  .header .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    word-wrap: break-word;
+    width: 50%;
+    padding-bottom: 5px; }
+  .header .dropdown-content a:hover {
+    background-color: black; }
+  .header .dropdown:hover .dropdown-content {
+    display: block; }
+  .header .dropdown:hover .dropbtn {
+    background-color: transparent;
+    color: white; }
+  .header .fltl {
+    float: left;
+    width: 70%;
+    word-wrap: break-word;
+    clear: right; }
+  .header .fltr {
+    width: 29%;
+    float: right; }
+
+.pic {
+  background-image: url("../back/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 101%;
+  height: 100%; }
+  .pic .lorab {
+    color: #ffae00;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 24px; }
+  .pic .line {
+    width: 30%;
+    height: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: white; }
+
+.tckt {
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .tckt .whitesp {
+    width: 100%;
+    height: 120%;
+    background-color: #d18e12; }
+  .tckt .lorab {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 24px; }
+  .tckt .buy {
+    color: #ffae00;
+    background-color: white;
+    text-align: center;
+    padding-top: 31px;
+    margin-left: 20px;
+    padding-right: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px; }
+  .tckt a:visited {
+    color: #ffae00; }
+
+.spon {
+  padding-left: 19px;
+  padding-right: 21px;
+  padding-bottom: 30px; }
+  .spon .mon {
+    font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 10px; }
+  .spon .monmon {
+    font-size: 16px;
+    font-family: "lora";
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.lst {
+  background-color: #ebebeb;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+  .lst .lorab {
+    font-family: "Lora";
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+    text-align: left;
+    padding-top: 10px;
+    list-style: disc;
+    margin-left: 30px; }
+  .lst .mon {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.0;
+    letter-spacing: 1.2px; }
+
+.spon-spon .mon {
+  padding-top: 30px;
+  margin-left: 20px;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 1px;
+  text-align: left; }
+.spon-spon .lorab {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  margin-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+.spon-spon .buy {
+  color: black;
+  background-color: #ffae00;
+  text-align: center;
+  padding-top: 31px;
+  margin-left: 20px;
+  padding-right: 40px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 31px;
+  padding-left: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px; }
+.spon-spon a:visited {
+  color: white; }
+
+.loc {
+  background-color: #ffae00;
+  padding-bottom: 30px; }
+  .loc .mon {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.43;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 20px; }
+  .loc .lorao {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    padding-top: 20px;
+    margin-left: 20px; }
+  .loc .lorab {
+    font-size: 16px;
+    margin-left: 20px; }
+
+.greysp {
+  background-color: #ebebeb;
+  height: 360px; }
+
+.lastp {
+  padding-top: 40px;
+  background-color: black; }
+  .lastp .mon {
+    margin-left: 20px;
+    color: white; }
+  .lastp .lorab {
+    margin-left: 20px;
+    color: #ebebeb; }
+  .lastp .monmon {
+    margin-left: 20px;
+    color: #ebebeb; }
+
+/*# sourceMappingURL=style.css.map */
