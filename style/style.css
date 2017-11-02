@@ -291,6 +291,60 @@ table {
     margin-left: 20px;
     color: #ebebeb; }
 
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%; } }
+@media only screen and (min-width: 1024px) {
+  .header {
+    width: 100%;
+    font-size: 24px; }
+    .header .fltl {
+      font-size: 25px;
+      word-break: break-all;
+      width: 20%;
+      height: 100%;
+      padding-bottom: 30px;
+      padding-top: 15px; }
+    .header .fltr {
+      padding-top: 15px;
+      float: right; }
+    .header .dropbtn {
+      background-color: none;
+      color: white;
+      padding: none;
+      font-size: noen;
+      border: none;
+      cursor: none; }
+    .header .dropdown {
+      position: none;
+      display: noen; }
+    .header .dropdown-content {
+      display: inline;
+      position: absolute;
+      right: 20px;
+      top: 35px;
+      background-color: none;
+      min-width: none;
+      box-shadow: none;
+      z-index: 1; }
+    .header .dropdown-content a {
+      color: #ffae00;
+      text-decoration: none;
+      display: inline;
+      word-wrap: none;
+      width: 50%;
+      padding-bottom: 5px; }
+    .header .dropdown-content a:hover {
+      background-color: black; }
+    .header .dropdown:hover .dropdown-content {
+      display: block; }
+    .header .dropdown:hover .dropbtn {
+      background-color: transparent;
+      color: white; }
+    .header .drpi {
+      display: none; }
+    .header .rgt {
+      padding-right: 40px; } }
 .a-t-c {
   padding-left: 20px;
   padding-right: 20px;
