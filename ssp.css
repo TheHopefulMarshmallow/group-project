@@ -1,4 +1,149 @@
 body{
 width: 1280px;
- 
+
+}
+
+.ss{
+X: 92px;
+Y: 269px;
+width: 378px;
+height: 37px;
+font-family: Lora;
+font-size: 36px;
+font-weight: bold;
+line-height: 1.5;
+letter-spacing: 1.8px;
+text-align: left;
+color: #FFAE00;
+}
+
+/* sass divs */
+.avail-tickets{
+X: 89px;
+Y: 525px;
+width: 301px;
+height: 200px;
+}
+
+h5{
+X: 453px;
+Y: 528px;
+line-height: 2.13;
+letter-spacing: 0.8px;
+text-align: left;
+color: #101010;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+width: 442px;
+height: 14px;
+}
+
+section{
+Y: 584px;
+X: 452;
+height: 3594;
+width: 634;
+font-size: 18px;
+font-family: Montserrat;
+line-height: 1.5;
+font-weight: 500;
+text-align: left;
+letter-spacing: 0.9px;
+color: #101010;
+}
+
+.registration{
+font-family: Lora;
+font-size: 16px;
+letter-spacing: 0.8px;
+line-height: 1.69;
+font-weight: normal;
+}
+
+.open{
+letter-spacing: 0.8px;
+font-weight: normal;
+font-family: Lora;
+font-size: 16px;
+}
+
+.gray-box{
+Y: 777px;
+X: 1px;
+height: 415;
+width: 1279px;
+background-color: #EBEBEB;
+color: black;
+}
+
+.second-sess{
+height: 410px;
+width: 1279px;
+
+}
+
+.gray-box2{
+Y: 1597px;
+X: 1px;
+height: 434px;
+width: 1279px;
+background-color: #EBEBEB;
+}
+
+.gray-box3{
+Y: 2162;
+X: 1px;
+background-color: #EBEBEB;
+height: 420px;
+width: 1279px;
+}
+
+.gray-box4{
+Y: 2991px;
+X: 1px;
+background-color: #EBEBEB;
+height: 443px;
+width: 1279px;
+}
+
+.gray-box5{
+Y: 3842px;
+X: 1px;
+background-color: #EBEBEB;
+height: 123px;
+width: 1279px;
+}
+
+.white-box4{
+Y: 3950px;
+X: 1px;
+height: 123px;
+width: 1279px;
+}
+
+.gray-box6{
+Y: 4089;
+X: 1px;
+background-color: #EBEBEB;
+height: 123px;
+width: 1279px;
+}
+
+.section2{
+Y: 4212px;
+X: 1px;
+background-color: #FFAE00;
+height: 563px;
+width: 1279px;
+}
+
+.ware-center{
+Y: 4356px;
+X: 92px;
+height: 275px;
+width: 257px;
+font-family: Lora;
+font-size: 18px;
+text-align: left;
 }
