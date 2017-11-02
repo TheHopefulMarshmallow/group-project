@@ -218,6 +218,7 @@ $lstb:#313131;
 		font-size: 18px;
 		font-weight: bold;
 		letter-spacing: 0.9px;
+		color: $orng;
 	}
 	a:visited{
 		color: $orng;
@@ -361,5 +362,134 @@ $lstb:#313131;
 		padding-top: 30px;
 		margin-left: 20px;
 		color: $gry;
+	}
+}
+
+//*about page *//
+
+.a-t-c{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	.mon{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.17;
+		letter-spacing: 1.2px;
+		padding-bottom: 10px;
+	}
+	.lorab{
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		padding-bottom: 15px;
+
+	}
+}
+
+.venue{
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	background-color: $gry;
+
+	.mon{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.0;
+		letter-spacing: 1.2px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.lorab{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		padding-bottom: 15px;
+	}
+	.ven{
+		background-image: url("../back/1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 200px;
+	}
+}
+
+.c-a-i{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	.mon{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 1.2px;
+	}
+
+	.lorao{
+		padding-bottom: 10px;
+	}
+
+	.box{
+		width: 90%;
+		padding-bottom: 15px;
+		border: solid 1px black;
+	}
+
+	.subm{
+		background-color: $orng;
+		padding: 13px;
+		margin-top: 10px;
+		margin-left: 120px;
+		margin-right: 22px;
+	}
+
+	.sub{
+		font-family: "Montserrat";
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 2.0;
+		letter-spacing: 0.9px;
+		padding-left: 25px;
+		color: white;
+	}
+}
+
+.C-L{
+	background-color: $orng;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+
+	.mon{
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 1.43;
+		letter-spacing: 1px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		width: 50%;
+	}
+	.monmon{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.33;
+		padding-bottom: 15px;
+	}
+	.lorab{
+		padding-bottom: 15px;
+		font-size: 16px;
+		line-height: 1.5;
 	}
 }

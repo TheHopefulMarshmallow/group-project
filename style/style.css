@@ -173,7 +173,8 @@ table {
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: bold;
-    letter-spacing: 0.9px; }
+    letter-spacing: 0.9px;
+    color: #ffae00; }
   .tckt a:visited {
     color: #ffae00; }
 
@@ -289,5 +290,108 @@ table {
     padding-top: 30px;
     margin-left: 20px;
     color: #ebebeb; }
+
+.a-t-c {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left; }
+  .a-t-c .mon {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 1.2px;
+    padding-bottom: 10px; }
+  .a-t-c .lorab {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    padding-bottom: 15px; }
+
+.venue {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left;
+  background-color: #ebebeb; }
+  .venue .mon {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.0;
+    letter-spacing: 1.2px;
+    padding-bottom: 15px;
+    padding-top: 15px; }
+  .venue .lorab {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    padding-bottom: 15px; }
+  .venue .ven {
+    background-image: url("../back/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px; }
+
+.c-a-i {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left; }
+  .c-a-i .mon {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.2px; }
+  .c-a-i .lorao {
+    padding-bottom: 10px; }
+  .c-a-i .box {
+    width: 90%;
+    padding-bottom: 15px;
+    border: solid 1px black; }
+  .c-a-i .subm {
+    background-color: #ffae00;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 22px; }
+  .c-a-i .sub {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2.0;
+    letter-spacing: 0.9px;
+    padding-left: 25px;
+    color: white; }
+
+.C-L {
+  background-color: #ffae00;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left; }
+  .C-L .mon {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.43;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 50%; }
+  .C-L .monmon {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    padding-bottom: 15px; }
+  .C-L .lorab {
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5; }
 
 /*# sourceMappingURL=style.css.map */
