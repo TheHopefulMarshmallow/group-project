@@ -1,0 +1,495 @@
+//* css reset *//
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align: left;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+//* variables *//
+$wit:white;
+$orng:#ffae00;
+$ornb:#d18e12;
+$blk:#101010;
+$gry:#ebebeb;
+$lstb:#313131;
+
+//* words *//
+.mon{
+	font-family: "Montserrat";
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	text-align: left;
+}
+
+.monmon{
+	font-family: "Montserrat";
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	text-align: left;
+}
+
+.lorab{
+	font-family: "Lora";
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.8px;
+	text-align: left;
+}
+
+.lorao{
+		font-family: "Lora";
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		text-align: left;
+}
+//* is da sponser page mang *//
+
+.header{
+	background-image: url("../back/b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 95%;
+	height: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	color: white;
+
+	.lorab{
+	}
+
+	.dropbtn {
+	  background-color: transparent;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.dropdown {
+	  position: inherit;
+	  display: inline;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: inherit;
+	  background-color: transparent;
+	  min-width: 146px;
+	  box-shadow: 0px 8px 16px 0px grey;
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: white;
+	  text-decoration: none;
+	  display: block;
+		word-wrap: break-word;
+		width: 50%;
+		padding-bottom: 5px;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: black;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+	  background-color: transparent;
+	  color: white;
+	}
+
+	.fltl{
+		float: left;
+		width: 70%;
+		word-wrap: break-word;
+		clear: right;
+	}
+
+	.fltr{
+		width: 29%;
+		float: right;
+	}
+}
+.pic{
+	.lorab{
+		color: $orng;
+		width: 70%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		font-size: 24px;
+	}
+	background-image: url("../back/b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 101%;
+	height: 100%;
+	.line{
+		width: 30%;
+		height: 4px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		background-color: white;
+	}
+}
+
+.tckt{
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	.whitesp{
+    width: 100%;
+		height: 120%;
+		background-color: $ornb;
+
+	}
+	.lorab{
+		padding-left: 30px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		color: white;
+		font-size: 24px;
+	}
+	.buy{
+		color: $orng;
+		background-color: white;
+		text-align: center;
+		padding-top: 31px;
+		margin-left: 20px;
+		padding-right: 40px;
+		margin-right: 20px;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		font-family: "Montserrat";
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.9px;
+		color: $orng;
+	}
+	a:visited{
+		color: $orng;
+	}
+}
+
+.spon{
+	padding-left: 19px;
+	padding-right: 21px;
+	padding-bottom: 30px;
+	.mon{
+		font-weight: bold;
+		font-size: 21px;
+		padding-bottom: 10px;
+	}
+	.monmon{
+		font-size: 16px;
+		font-family: "lora";
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+}
+
+.lst{
+	background-color: $gry;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	.lorab{
+		font-family: "Lora";
+		font-size: 18px;
+		line-height: 1.33;
+		letter-spacing: 0.9px;
+		text-align: left;
+		padding-top: 10px;
+    list-style: disc;
+    margin-left: 30px;
+
+	}
+	.mon{
+		padding-top: 20px;
+		padding-left: 10px;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.0;
+		letter-spacing: 1.2px;
+	}
+}
+
+.spon-spon{
+	.mon{
+		padding-top: 30px;
+		margin-left: 20px;
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 1.14;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+
+	.lorab{
+		font-size: 14px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		text-align: left;
+		margin-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.buy{
+		color: black;
+		background-color: $orng;
+		text-align: center;
+		padding-top: 31px;
+		margin-left: 20px;
+		padding-right: 40px;
+		margin-right: 20px;
+		margin-bottom: 30px;
+		padding-bottom: 31px;
+		padding-left: 0px;
+		font-family: "Montserrat";
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.9px;
+	}
+	a:visited{
+		color: white;
+	}
+}
+
+.loc{
+	background-color: $orng;
+	padding-bottom: 30px;
+	.mon{
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 1.43;
+		letter-spacing: 1px;
+		text-align: left;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		margin-left: 20px;
+	}
+	.lorao{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.33;
+		padding-top: 20px;
+		margin-left: 20px;
+
+	}
+	.lorab{
+		font-size: 16px;
+		margin-left: 20px;
+	}
+
+}
+
+.greysp{
+	background-color: $gry;
+	height: 360px;
+}
+
+.lastp{
+	padding-top: 40px;
+	background-color: black;
+	padding-bottom: 30px;
+	.mon{
+		margin-left: 20px;
+		color: white;
+		padding-bottom: 20px;
+	}
+	.lorab{
+		margin-left: 20px;
+		color: $gry;
+		padding-bottom: 20px;
+	}
+	.monmon{
+		padding-top: 30px;
+		margin-left: 20px;
+		color: $gry;
+	}
+}
+
+//*about page *//
+
+.a-t-c{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	.mon{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.17;
+		letter-spacing: 1.2px;
+		padding-bottom: 10px;
+	}
+	.lorab{
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		padding-bottom: 15px;
+
+	}
+}
+
+.venue{
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	background-color: $gry;
+
+	.mon{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.0;
+		letter-spacing: 1.2px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.lorab{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.8px;
+		padding-bottom: 15px;
+	}
+	.ven{
+		background-image: url("../back/1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 200px;
+	}
+}
+
+.c-a-i{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+	.mon{
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 1.2px;
+	}
+
+	.lorao{
+		padding-bottom: 10px;
+	}
+
+	.box{
+		width: 90%;
+		padding-bottom: 15px;
+		border: solid 1px black;
+	}
+
+	.subm{
+		background-color: $orng;
+		padding: 13px;
+		margin-top: 10px;
+		margin-left: 120px;
+		margin-right: 22px;
+	}
+
+	.sub{
+		font-family: "Montserrat";
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 2.0;
+		letter-spacing: 0.9px;
+		padding-left: 25px;
+		color: white;
+	}
+}
+
+.C-L{
+	background-color: $orng;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: left;
+
+	.mon{
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 1.43;
+		letter-spacing: 1px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		width: 50%;
+	}
+	.monmon{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.33;
+		padding-bottom: 15px;
+	}
+	.lorab{
+		padding-bottom: 15px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
