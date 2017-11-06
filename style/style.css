@@ -52,7 +52,7 @@ table {
   letter-spacing: 0.8px;
   text-align: left; }
 
-.monmon {
+.mon2 {
   font-family: "Montserrat";
   line-height: 1.5;
   letter-spacing: 0.8px;
@@ -71,6 +71,45 @@ table {
   line-height: 1.5;
   letter-spacing: 0.8px;
   text-align: left; }
+
+.home .heading {
+  height: 230px; }
+.home .tickets {
+  padding-top: 100px;
+  color: #ffae00; }
+
+.days-until {
+  position: absolute;
+  left: 15px;
+  top: 250px;
+  width: 80%;
+  background-color: #ffae00;
+  margin: 20px; }
+  .days-until .zero {
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 65px;
+    height: 65px;
+    display: inline-block; }
+    .days-until .zero .mon {
+      color: black;
+      padding-top: 15px;
+      padding-left: 22px;
+      font-size: 25px; }
+  .days-until .mon {
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px; }
+  .days-until .mon2 {
+    padding-left: 50px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px; }
 
 .header {
   background-image: url("../back/b.jpg");
@@ -122,44 +161,51 @@ table {
     width: 29%;
     float: right; }
 
-.pic {
+.heading {
   background-image: url("../back/b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 101%;
   height: 100%; }
-  .pic .lorab {
+  .heading .lorab {
     color: #ffae00;
     width: 70%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     font-size: 24px; }
-  .pic .line {
+  .heading .line {
     width: 30%;
     height: 4px;
     margin-bottom: 20px;
     margin-left: 20px;
     background-color: white; }
 
-.tckt {
+.tickets {
   background-color: white;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px; }
-  .tckt .whitesp {
+  .tickets .hidden {
+    display: none; }
+    .tickets .hidden .mon {
+      color: #ffae00; }
+    .tickets .hidden .space {
+      font-family: "Montserrat";
+      padding-bottom: 10px; }
+  .tickets .whitesp {
     width: 100%;
     height: 120%;
     background-color: #d18e12; }
-  .tckt .lorab {
+  .tickets .lorab {
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 30px;
     color: white;
     font-size: 24px; }
-  .tckt .buy {
+  .tickets .buy {
     color: #ffae00;
     background-color: white;
     text-align: center;
@@ -175,28 +221,28 @@ table {
     font-weight: bold;
     letter-spacing: 0.9px;
     color: #ffae00; }
-  .tckt a:visited {
+  .tickets a:visited {
     color: #ffae00; }
 
-.spon {
+.sponser {
   padding-left: 19px;
   padding-right: 21px;
   padding-bottom: 30px; }
-  .spon .mon {
+  .sponser .mon {
     font-weight: bold;
     font-size: 21px;
     padding-bottom: 10px; }
-  .spon .monmon {
+  .sponser .mon2 {
     font-size: 16px;
     font-family: "lora";
     padding-top: 10px;
     padding-bottom: 10px; }
 
-.lst {
+.CPOSC-list {
   background-color: #ebebeb;
   padding-bottom: 40px;
   padding-top: 40px; }
-  .lst .lorab {
+  .CPOSC-list .lorab {
     font-family: "Lora";
     font-size: 18px;
     line-height: 1.33;
@@ -205,7 +251,7 @@ table {
     padding-top: 10px;
     list-style: disc;
     margin-left: 30px; }
-  .lst .mon {
+  .CPOSC-list .mon {
     padding-top: 20px;
     padding-left: 10px;
     font-size: 24px;
@@ -213,7 +259,7 @@ table {
     line-height: 1.0;
     letter-spacing: 1.2px; }
 
-.spon-spon .mon {
+.sponser-package .mon {
   padding-top: 30px;
   margin-left: 20px;
   font-size: 21px;
@@ -221,7 +267,7 @@ table {
   line-height: 1.14;
   letter-spacing: 1px;
   text-align: left; }
-.spon-spon .lorab {
+.sponser-package .lorab {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.8px;
@@ -230,7 +276,7 @@ table {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px; }
-.spon-spon .buy {
+.sponser-package .buy {
   color: black;
   background-color: #ffae00;
   text-align: center;
@@ -245,13 +291,13 @@ table {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.9px; }
-.spon-spon a:visited {
+.sponser-package a:visited {
   color: white; }
 
-.loc {
+.locations {
   background-color: #ffae00;
   padding-bottom: 30px; }
-  .loc .mon {
+  .locations .mon {
     font-size: 21px;
     font-weight: 500;
     line-height: 1.43;
@@ -260,33 +306,33 @@ table {
     padding-top: 30px;
     padding-bottom: 15px;
     margin-left: 20px; }
-  .loc .lorao {
+  .locations .lorao {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.33;
     padding-top: 20px;
     margin-left: 20px; }
-  .loc .lorab {
+  .locations .lorab {
     font-size: 16px;
     margin-left: 20px; }
 
-.greysp {
+.greyspace {
   background-color: #ebebeb;
   height: 360px; }
 
-.lastp {
+.lastpart {
   padding-top: 40px;
   background-color: black;
   padding-bottom: 30px; }
-  .lastp .mon {
+  .lastpart .mon {
     margin-left: 20px;
     color: white;
     padding-bottom: 20px; }
-  .lastp .lorab {
+  .lastpart .lorab {
     margin-left: 20px;
     color: #ebebeb;
     padding-bottom: 20px; }
-  .lastp .monmon {
+  .lastpart .mon2 {
     padding-top: 30px;
     margin-left: 20px;
     color: #ebebeb; }
@@ -296,7 +342,7 @@ table {
     width: 100%; } }
 @media only screen and (min-width: 1024px) {
   .header {
-    width: 100%;
+    width: 99%;
     font-size: 24px; }
     .header .fltl {
       font-size: 25px;
@@ -312,12 +358,10 @@ table {
       background-color: none;
       color: white;
       padding: none;
-      font-size: noen;
       border: none;
       cursor: none; }
     .header .dropdown {
-      position: none;
-      display: noen; }
+      position: none; }
     .header .dropdown-content {
       display: inline;
       position: absolute;
@@ -344,20 +388,27 @@ table {
     .header .drpi {
       display: none; }
     .header .rgt {
-      padding-right: 40px; } }
-.a-t-c {
+      padding-right: 40px; }
+
+  .pic .lorab {
+    font-size: 36px;
+    padding-left: 90px;
+    width: 81%; }
+  .pic .line {
+    width: 10%; } }
+.about-the-conference {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 20px;
   text-align: left; }
-  .a-t-c .mon {
+  .about-the-conference .mon {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 1.2px;
     padding-bottom: 10px; }
-  .a-t-c .lorab {
+  .about-the-conference .lorab {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.8px;
@@ -391,30 +442,30 @@ table {
     width: 100%;
     height: 200px; }
 
-.c-a-i {
+.Contact-Inquiries {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 20px;
   text-align: left; }
-  .c-a-i .mon {
+  .Contact-Inquiries .mon {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 1.2px; }
-  .c-a-i .lorao {
+  .Contact-Inquiries .lorao {
     padding-bottom: 10px; }
-  .c-a-i .box {
+  .Contact-Inquiries .box {
     width: 90%;
     padding-bottom: 15px;
     border: solid 1px black; }
-  .c-a-i .subm {
+  .Contact-Inquiries .subm {
     background-color: #ffae00;
     padding: 13px;
     margin-top: 10px;
     margin-left: 120px;
     margin-right: 22px; }
-  .c-a-i .sub {
+  .Contact-Inquiries .sub {
     font-family: "Montserrat";
     font-size: 15px;
     font-weight: bold;
@@ -423,14 +474,14 @@ table {
     padding-left: 25px;
     color: white; }
 
-.C-L {
+.Conference-Location {
   background-color: #ffae00;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 20px;
   text-align: left; }
-  .C-L .mon {
+  .Conference-Location .mon {
     font-size: 21px;
     font-weight: 500;
     line-height: 1.43;
@@ -438,12 +489,12 @@ table {
     padding-top: 10px;
     padding-bottom: 15px;
     width: 50%; }
-  .C-L .monmon {
+  .Conference-Location .mon2 {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.33;
     padding-bottom: 15px; }
-  .C-L .lorab {
+  .Conference-Location .lorab {
     padding-bottom: 15px;
     font-size: 16px;
     line-height: 1.5; }
