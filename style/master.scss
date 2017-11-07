@@ -89,6 +89,7 @@ $lstb:#313131;
 }
 
 //* home page *//
+
 .home{
 	.heading{
 		height: 230px;
@@ -137,6 +138,67 @@ $lstb:#313131;
 	}
 }
 
+//* ssp *//
+.note{
+	padding-left: 30px;
+	padding-right: 30px;
+	.mon{
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 1.62;
+		letter-spacing: 0.6px;
+	}
+}
+.whitebox{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	.mon{
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+	}
+	.lorao{
+		font-size: 14px;
+		font-weight: lighter;
+		line-height: 1.5;
+		letter-spacing: 0.9px;
+		padding-bottom: 5px;
+	}
+	.mon2{
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+		color: $orng;
+	}
+
+}
+.greybox{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: $gry;
+	.mon{
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+	}
+	.lorao{
+		font-size: 14px;
+		font-weight: lighter;
+		line-height: 1.5;
+		letter-spacing: 0.9px;
+		padding-bottom: 5px;
+	}
+	.mon2{
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0.8px;
+		color: $orng;
+	}
+}
 
 //* is da sponser page mang *//
 
@@ -643,5 +705,21 @@ $lstb:#313131;
 		padding-bottom: 15px;
 		font-size: 16px;
 		line-height: 1.5;
+	}
+}
+
+//* tickets page *//
+
+.ticket-cost{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	.lorao{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: $orng;
+	}
+	.mon{
+		font-weight: bold;
 	}
 }
