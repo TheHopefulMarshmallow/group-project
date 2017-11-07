@@ -111,6 +111,58 @@ table {
     font-size: 15px;
     letter-spacing: 1px; }
 
+.note {
+  padding-left: 30px;
+  padding-right: 30px; }
+  .note .mon {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.6px; }
+
+.whitebox {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .whitebox .mon {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px; }
+  .whitebox .lorao {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding-bottom: 5px; }
+  .whitebox .mon2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffae00; }
+
+.greybox {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ebebeb; }
+  .greybox .mon {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px; }
+  .greybox .lorao {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding-bottom: 5px; }
+  .greybox .mon2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffae00; }
+
 .header {
   background-image: url("../back/b.jpg");
   background-repeat: no-repeat;
@@ -498,5 +550,16 @@ table {
     padding-bottom: 15px;
     font-size: 16px;
     line-height: 1.5; }
+
+.ticket-cost {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px; }
+  .ticket-cost .lorao {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffae00; }
+  .ticket-cost .mon {
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
