@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>Home Page</title>
-  <link rel="stylesheet" type="text/css" href="style/homepage.css">
+  <title>homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
-<body>
 
-<header class="name-navbar">
-  <!-- this is the header for every page -->
-  <p class="company-name">Central Pennsvylvania Open Source Conference</p>
-</header>
-<section>
-  <!-- title section for homepage -->
-  <h1>Into the Great Wide Open (Source)</h1>
-</section>
 
 <section>
   <div id="countDown"> 0 0 0 </div>
@@ -29,62 +23,115 @@
   <p>Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skills levels and featuring case studies, best practices, code-alongs and more. Join us for a day of meeting with and learning from your technology peers.</p>
 </article>
 
-<article>
-  <h4>Why CPOSC?</h4>
-  <p>Technology is evolving with unprecedented speed, which means it's more important than ever for those on the front lines of tech to gather, converse &amp; share their experiences. CPOSC offers technologists passionate about open source technologies that very opportunity through presentations, panel discussions, lightning talks &amp; more.</p>
-  <h4>Why Downtown Lancaster?</h4>
-  <p>As Downtown Lancaster's arts, music, drinking &amp; dining scences have garnered national recgonition over the past decade, we firmly beliweve that the Lancaster tech scene is in the midst of its own big break out. By moving downtown beginning in 2016, we wanted CPOSC to be at the center of this impending tech explosion. As a bonus: it's an easy walk from the Ware Center to the CPOSC After Party!</p>
-  <h4>What to expect:</h4>
-  <p>Since its start, CPOSC has featured some of the most experienced technologists in the industry presenting on a variety of open source topics, from introduction to emerging technologies to deep dives into coding languages, as well as high-level case studies recounting what worked, what didn't work, and the lessons learned along the way.</p>
-</article>
+<body class="home">
 
-<section>
-  <!-- section with logos for sponsors -->
-  <h4>Conference Sponsors</h4>
-  <p>Thank you for supporting open source in Central Pennsylvania!</p>
-  <div class="button2">BECOME A SPONSOR</div>
-  <h5>PLATINUM SPONSORS</h5>
-      <img src="">
-  <h5>GOLD SPONSORS</h5>
-      <img src="">
-      <img src="">
-      <img src="">
-  <h5>SILVER SPONSORS</h5>
-      <img src="">
-      <img src="">
-      <img src="">
-  <h5>BRONZE SPONSORS</h5>
-      <img src="">
-  <h5>HOST SPONSORS</h5>
-      <img src="">
+  <header class="header">
+    <div class="fltl">
+      <h1>Central Pennsvylvania Open Source Conference</h1>
+    </div>
+    <nav class="fltr">
+      <div class="dropdown">
+        <button class="dropbtn"><img class="drpi" src="back/burger.png" alt="menu" height="40" width="40"></button>
+        <div class="dropdown-content">
+          <a class="rgt" href="index.html">home</a>
+          <a class="rgt" href="become-a-sponsor.html">become a sponsor</a>
+          <a class="rgt" href="about.html">About</a>
+          <a class="rgt" href="ssp.html">speakers sessions</a>
+          <a class="rgt" href="tickets.html">tickets</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="heading">
+    <p class="lorab">Into the Great Wide Open (Source)</p>
+    <div class="line">
+
+    </div>
   </section>
-
+  <section class="days-until">
+    <div class="zero">
+      <p class="mon">0</p>
+    </div>
+    <div class="zero">
+      <p class="mon">0</p>
+    </div>
+    <div class="zero">
+      <p class="mon">0</p>
+    </div>
+    <p class="mon">DAYS UNTIL CPOSC 2018</p>
+    <p class="mon2">November 1, 2018</p>
+  </section>
+  <section class="tickets">
+    <div class="whitesp">
+      <h1 class="lorab">2017 tickets are now available:</h1>
+      <div class="buy">
+        <a c href="#">Buy tickets</a>
+      </div>
+    </div>
+  </section>
+  <section class="about-the-conference">
+    <h2 class="mon">The Central PA Open Source Conference (CPOSC) is a one-day technical conference for open source users and developers</h2>
+    <p class="lorab">Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skills levels and featuring case studies, best practices, code-alongs and more. Join us for a day of meeting with and learning from your technology
+      peers.
+    </p>
+  </section>
+  <section class="venue">
+    <h1 class="mon">Why CPOSC?</h1>
+    <p class="lorab">Technology is evolving with unprecedented speed, which means it's more important than ever for those on the front lines of tech to gather, converse &amp; share their experiences. CPOSC offers technologists passionate about open source technologies
+      that very opportunity through presentations, panel discussions, lightning talks &amp; more.</p>
+    <h1 class="mon">Why Downtown Lancaster?</h1>
+    <p class="lorab">As Downtown Lancaster's arts, music, drinking &amp; dining scences have garnered national recgonition over the past decade, we firmly beliweve that the Lancaster tech scene is in the midst of its own big break out. By moving downtown beginning in
+      2016, we wanted CPOSC to be at the center of this impending tech explosion. As a bonus: it's an easy walk from the Ware Center to the CPOSC After Party!</p>
+    <h1 class="mon">What to expect:</h1>
+    <p class="lorab">Since its start, CPOSC has featured some of the most experienced technologists in the industry presenting on a variety of open source topics, from introduction to emerging technologies to deep dives into coding languages, as well as high-level case
+      studies recounting what worked, what didn't work, and the lessons learned along the way.</p>
+  </section>
   <section>
-    <!-- locations, which is the same for every page -->
-    <h3> CONFERENCE LOCATIONS</h3>
-    <h5>The Ware Center</h5>
-    <p>at Millersville University</p>
-    <p> 42 N. Prince Street,</p>
-    <p>Lancaster, PA 17603</p>
-    <h5>Prince St. Parking Garage</h5>
-    <p>111 N. Prince Street,</p>
-    <p>Lancaster, PA 17603</p>
-    <h5>Tellus360</h5>
-    <p>24 E. King Street,</p>
-    <p>Lancaster, PA 17602</p>
+    <!-- section with logos for sponsors -->
+    <h1>Conference Sponsors</h1>
+    <p>Thank you for supporting open source in Central Pennsylvania!</p>
+    <div class="">BECOME A SPONSOR</div>
+    <h1>PLATINUM SPONSORS</h1>
+    <img src="">
+    <h1>GOLD SPONSORS</h1>
+    <img src="">
+    <img src="">
+    <img src="">
+    <h1>SILVER SPONSORS</h1>
+    <img src="">
+    <img src="">
+    <img src="">
+    <h1>BRONZE SPONSORS</h1>
+    <img src="">
+    <h1>HOST SPONSORS</h1>
+    <img src="">
   </section>
-
-  <section>
-    <!-- empty grey space -->
+  <section class="Conference-Location">
+    <h1 class="mon">conference locations</h1>
+    <h2 class="mon2">the ware center</h2>
+    <p class="lorab">at millersville university</p>
+    <p class="lorab">42 N. prince street,</p>
+    <p class="lorab">Lancaster, PA 17603</p>
+    <h2 class="mon2">Prince st. parking garage</h2>
+    <p class="lorab">111 N. prince street,</p>
+    <p class="lorab">lancaster, PA 17603</p>
+    <h2 class="mon2">tellus360</h2>
+    <p class="lorab">24 E. king street,</p>
+    <p class="lorab">Lancaster, PA 17602</p>
   </section>
+  <section class="greyspace">
+    <div class="">
 
-  <footer>
-    <!-- footer is the same for every page -->
-    <h6>Code of Conduct</h6>
-    <p>CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under Code of Conduct</p>
-    <h6>Connect with CPOSC</h6>
-    <p>#CPOSC2017</p>
-  </footer>
+    </div>
+  </section>
+  <section class="lastpart">
+    <h1 class="mon">code of conduct</h1>
+    <p class="lorab">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: cposc.org/code-of-conduct</p>
+    <h1 class="mon2">connect</h1>
+
+    <h1 class="mon2">#CPOSC2017</h1>
+  </section>
 
 </body>
+
 </html>

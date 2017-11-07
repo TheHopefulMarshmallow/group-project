@@ -1,90 +1,131 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>Home Page</title>
-  <link rel="stylesheet" type="text/css" href="style/stylesheet.css">
-  <script src="interactive.js"></script>
+  <title>tickets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
-<body>
-<header>
-  <p>Central Pennsvylvania Open Source Conference</p>
-</header>
-<section>
-  <h2>Join us for a day of meeting with and learning from your technology peers.</h2>
-</section>
-<article>
-  <!-- this article goes over ticket types and prices -->
-  <p>Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skill levels and featuring case studies, best practices, code-alongs and more.</p>
-    <h3>The Answer to Everything Ticket</h3>
-    <div class="ticket-cost">$42</div>
-    <p>This ticket is the answer to everything. It grants you access to the vendor hall, all talks and presentations, and lets you grow some courage and submit a lightning talk! Plus, this gets you a fully functional t-shirt, another tote bag that you probably don't need which happens to be full of some cool conference swag, and it gets you access to breakfast elevensies, lunch, afternoon tea, and the oh-so-happening CPOSC afterparty. All that goodness and it's only $42.</p>
-    <p>Sales end on November 4</p>
-    <!-- the divs in this article contain interactive elements for the tickets -->
-    <form class="ticket-number">
-      <input type="text" name="0">
-    </form>
-    <h3>The Open Access Ticket</h3>
-    <div class="ticket-cost">$0</div>
-    <p>We believe that information and access to it should be open, free and shared. The Open Access ticket program is an embodiment of that notion. Open Access tickets get you the exact conference experience as the "Answer to Everything" ticket, but you get it all for absolutely no cost. These tickes operate like a "take-a-number" line at the deli counter. Any attendee is welcomed to request an Open Access ticket for any reason, no questoins asked. Upon making your request, if there have been Open Access donations by other conference attendees, you will receive receive a ticket at no cost! If there are no funds in the donor pool, then you will have to wait intil a donation is made. If not enough donations come in prior to the conference, you will be given an opportunity to purchase at the door.</p>
-    <p>Sales end on November 4</p>
-    <form class="ticket-number">
-      <input type="text" name="0">
-    </form>
-    <h3>The Open Access for ALL Contributor Donation</h3>
-    <p>If you happen to believe that access to information (and especially Open Sourced information!) should be free, then here is your chance to help us enable that to happen at this very conference. For every donation of $42, or more to CPOSC, we'll grant access to a person who couldn't otherwise attend. These donations make it possible to offer out Open Access ticket initiative, as well as our free and discounted student ticket programs</p>
-    <p>Sales end on November 4</p>
-    <form class="donation-amount">
-      <input type="text" name="0">
-    </form>
-    <!-- donation div might not need separate class later -->
-    <h3>College Student</h3>
-    <div class="ticket-cost">$10</div>
-    <p>This ticket is good for one admission to the vendor hall and all presentations. A valid student id will be checked at the event registration table prior to receiving your badge. Includes shirt and all the swag of th "Answer to Everything". Meal tickets are not included with this ticket, but can be purchased at the even registration table on the day of the event.</p>
-    <p>Sales end on November 4</p>
-    <form class="ticket-number">
-      <input type="text" name="0">
-    </form>
-    <h3>High School Student</h3>
-    <div class="ticket-cost">$0</div>
-    <p>New this year! With an ever growing number of high-school students getting into programming, we are happy to welcome and encourage a small number of HS-aged students to attend the 9th annual CPOSC! By welcoming aspiring programmers, we hope that this conference will allow them to get a taste for what a professional future in the open source technology sectore might be like.</p>
-    <p>Parents and students, please note: This is a professional conference featuring highly technical talks being presented by individuals with skilled and diverse technical backgrounds. The content is not expected to be offered at a "high school level" and attendees are encouraged to have an active interest in the field of computer science or hardware as to be better equipped for the experience.</p>
-    <p>Sales end on November 4</p>
 
-    <form class="ticket-number">
-      <input type="text" name="0">
-    </form>
+<body>
+  <header class="header">
+    <div class="fltl">
+      <h1>Central Pennsvylvania Open Source Conference</h1>
+    </div>
+    <nav class="fltr">
+      <div class="dropdown">
+        <button class="dropbtn"><img class="drpi" src="back/burger.png" alt="menu" height="40" width="40"></button>
+        <div class="dropdown-content">
+          <a class="rgt" href="index.html">home</a>
+          <a class="rgt" href="become-a-sponsor.html">become a sponsor</a>
+          <a class="rgt" href="about.html">About</a>
+          <a class="rgt" href="ssp.html">speakers sessions</a>
+          <a class="rgt" href="tickets.html">tickets</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="heading">
+    <p class="lorab">Join us for a day of meeting with and learning from your technology peers.</p>
+    <div class="line">
+
+    </div>
+  </section>
+  <article>
+    <!-- this article goes over ticket types and prices -->
+    <div class="whitebox">
+      <p class="lorao">Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skill levels and featuring case studies, best practices, code-alongs and more.</p>
+    </div>
+    <div class="ticket-cost">
+      <h3 class="mon">The Answer to Everything Ticket</h3>
+      <p class="lorao">$42</p>
+      <p class="lorab">This ticket is the answer to everything. It grants you access to the vendor hall, all talks and presentations, and lets you grow some courage and submit a lightning talk! Plus, this gets you a fully functional t-shirt, another tote bag that you
+        probably don't need which happens to be full of some cool conference swag, and it gets you access to breakfast elevensies, lunch, afternoon tea, and the oh-so-happening CPOSC afterparty. All that goodness and it's only $42.</p>
+      <p class="lorab">Sales end on November 4</p>
+      <!-- the divs in this article contain interactive elements for the tickets -->
+      <form class="ticket-number">
+        <input type="text" name="0">
+      </form>
+    </div>
+    <div class="ticket-cost">
+      <h3 class="mon">The Open Access Ticket</h3>
+      <p class="lorao">$0</p>
+      <p class="lorab">We believe that information and access to it should be open, free and shared. The Open Access ticket program is an embodiment of that notion. Open Access tickets get you the exact conference experience as the "Answer to Everything" ticket, but you
+        get it all for absolutely no cost. These tickes operate like a "take-a-number" line at the deli counter. Any attendee is welcomed to request an Open Access ticket for any reason, no questoins asked. Upon making your request, if there have been
+        Open Access donations by other conference attendees, you will receive receive a ticket at no cost! If there are no funds in the donor pool, then you will have to wait intil a donation is made. If not enough donations come in prior to the conference,
+        you will be given an opportunity to purchase at the door.</p>
+      <p class="lorab">Sales end on November 4</p>
+      <form class="ticket-number">
+        <input type="text" name="0">
+      </form>
+    </div>
+    <div class="ticket-cost">
+      <h3 class="mon">The Open Access for ALL Contributor Donation</h3>
+      <p class="lorab">If you happen to believe that access to information (and especially Open Sourced information!) should be free, then here is your chance to help us enable that to happen at this very conference. For every donation of $42, or more to CPOSC, we'll
+        grant access to a person who couldn't otherwise attend. These donations make it possible to offer out Open Access ticket initiative, as well as our free and discounted student ticket programs</p>
+      <p class="lorab">Sales end on November 4</p>
+      <form class="donation-amount">
+        <input type="text" name="0">
+      </form>
+    </div>
+    <!-- donation div might not need separate class later -->
+    <div class="ticket-cost">
+      <h3 class="mon">College Student</h3>
+      <p class="lorao">$10</p>
+      <p class="lorab">This ticket is good for one admission to the vendor hall and all presentations. A valid student id will be checked at the event registration table prior to receiving your badge. Includes shirt and all the swag of th "Answer to Everything". Meal
+        tickets are not included with this ticket, but can be purchased at the even registration table on the day of the event.</p>
+      <p class="lorab">Sales end on November 4</p>
+      <form class="ticket-number">
+        <input type="text" name="0">
+      </form>
+    </div>
+    <div class="ticket-cost">
+      <h3 class="mon">High School Student</h3>
+      <p class="lorao">$0</p>
+      <p class="lorab">New this year! With an ever growing number of high-school students getting into programming, we are happy to welcome and encourage a small number of HS-aged students to attend the 9th annual CPOSC! By welcoming aspiring programmers, we hope that
+        this conference will allow them to get a taste for what a professional future in the open source technology sectore might be like.</p>
+      <p class="lorab">Parents and students, please note: This is a professional conference featuring highly technical talks being presented by individuals with skilled and diverse technical backgrounds. The content is not expected to be offered at a "high school level"
+        and attendees are encouraged to have an active interest in the field of computer science or hardware as to be better equipped for the experience.</p>
+      <p class="lorab">Sales end on November 4</p>
+
+      <form class="ticket-number">
+        <input type="text" name="0">
+      </form>
+    </div>
     <!-- this should calculate the cost of all purchased tickets -->
     <div class="total-cost">Total: 0</div>
     <form class="confirm-purchase">
       <input type="submit" name="purchase" value="Purchase">
     </form>
+    </div>
   </article>
-  <section>
-    <!-- locations, which is the same for every page -->
-    <h3> CONFERENCE LOCATIONS</h3>
-    <h5>The Ware Center</h5>
-    <p>at Millersville University</p>
-    <p> 42 N. Prince Street,</p>
-    <p>Lancaster, PA 17603</p>
-    <h5>Prince St. Parking Garage</h5>
-    <p>111 N. Prince Street,</p>
-    <p>Lancaster, PA 17603</p>
-    <h5>Tellus360</h5>
-    <p>24 E. King Street,</p>
-    <p>Lancaster, PA 17602</p>
+  <section class="Conference-Location">
+    <h1 class="mon">conference locations</h1>
+    <h2 class="mon2">the ware center</h2>
+    <p class="lorab">at millersville university</p>
+    <p class="lorab">42 N. prince street,</p>
+    <p class="lorab">Lancaster, PA 17603</p>
+    <h2 class="mon2">Prince st. parking garage</h2>
+    <p class="lorab">111 N. prince street,</p>
+    <p class="lorab">lancaster, PA 17603</p>
+    <h2 class="mon2">tellus360</h2>
+    <p class="lorab">24 E. king street,</p>
+    <p class="lorab">Lancaster, PA 17602</p>
   </section>
+  <section class="greyspace">
+    <div class="">
 
-  <section>
-<!-- empty grey space -->
+    </div>
   </section>
+  <section class="lastpart">
+    <h1 class="mon">code of conduct</h1>
+    <p class="lorab">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at: cposc.org/code-of-conduct</p>
+    <h1 class="mon2">connect</h1>
 
-  <footer>
-    <!-- footer is the same for every page -->
-    <h6>Code of Conduct</h6>
-    <p>CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under Code of Conduct</p>
-    <h6>Connect with CPOSC</h6>
-    <p>#CPOSC2017</p>
-  </footer>
+    <h1 class="mon2">#CPOSC2017</h1>
+  </section>
 </body>
+
 </html>
