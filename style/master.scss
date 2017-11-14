@@ -145,9 +145,206 @@ $lstb:#313131;
 
 @media only screen and (min-width: 1024px){
 	.home_media{
-		
+		.fltl{
+			X: 58px;
+			Y: 37px;
+			width: 305px;
+			height: 37px;
+			font-family: "Montserrat";
+			font-size: 18px;
+			font-weight: 800px;
+			line-height: 1.33;
+			letter-spacing: 1.8px;
+			text-align: left;
+			color: #F5F5F5;
+		}
+		.fltr{
+			X: 301px;
+			Y: 52px;
+			width: 499px;
+			height: 10px;
+			font-family: "Montserrat";
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.71;
+			letter-spacing: 1.4px;
+			text-align: left;
+			color: #F5F5F5;
+		}
+		.heading{
+			width: 1280px;
+			height: 685px;
+			.lorab{
+				X: 93px;
+				Y: 269px;
+				width: 744px;
+				height: 162px;
+				font-family: "Lora";
+				font-size: 72px;
+				font-weight: bold;
+				letter-spacing: 3.6px;
+				text-align: left;
+				color: #FFAE00;
+			}
+		}
+		.days-until{
+			X: 295px;
+			Y: 627px;
+			width: 744px;
+			height: 145px;
+			background-color: #FFAE00;
+		}
+		.tickets{
+			X: 90px;
+			Y: 873px;
+			width: 301px;
+			height: 200px;
+		}
+		.about-the-conference{
+			.mon{
+				X: 455px;
+				Y: 875px;
+				width: 668px;
+				height: 97px;
+				font-family: "Lora";
+				font-size: 24px;
+				font-weight: bold;
+				line-height: 1.5;
+				letter-spacing: 1.2px;
+				text-align: left;
+				color: #101010;
+			}
+			.lorab{
+				X: 452px;
+				Y: 1018px;
+				width: 658px;
+				height: 89px;
+				font-family: "Lora";
+				font-size: 18px;
+				line-height: 1.33;
+				letter-spacing: 0.9px;
+				text-align: left;
+				color: #101010;
+			}
+		}
+		.venue{
+			X: 1px;
+			Y: 1157px;
+			width: 1279px;
+			height: 759px;
+			background-color: #EBEBEB;
+			font-family: "Lora";
+			font-size: 18px;
+			line-height: 1.33;
+			letter-spacing: 0.9px;
+			text-align: left;
+			color: #101010;
+		}
+		section{
+			h1{
+				X: 92px;
+				Y: 2011px;
+				width: 265px;
+				height: 25px;
+				font-family: "Lora";
+				font-size: 24px;
+				font-weight: bold;
+				line-height: 1.5;
+				letter-spacing: 1.2px;
+				text-align: left;
+				color: #101010;
+			}
+			p{
+				X: 94px;
+				Y: 2053px;
+				width: 580px;
+				height: 17px;
+				font-family: "Lora";
+				font-size: 18px;
+				line-height: 1.33;
+				letter-spacing: 0.9px;
+				text-align: left;
+				color: #101010;
+				// Need images for this html page
+			}
+		}
+		.Conference-Location{
+			width: 557px;
+			height: 563px;
+			.mon{
+				X: 91px;
+				Y: 3264px;
+				width: 337px;
+				height: 17px;
+				font-family: "Montserrat";
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 1.5;
+				letter-spacing: 1.2px;
+				text-align: left;
+				color: #101010;
+			}
+		}
+		.greyspace{
+			X: 508px;
+			Y: 3170px;
+			width: 772px;
+			height: 563px;
+			background-color: #EBEBEB;
+		}
+		.lastpart{
+			X: 0px;
+			Y: 3734px;
+			width: 1280px;
+			height: 294px;
+			background-color: #313131;
+			.mon{
+				X: 90px;
+				Y: 3830px;
+				width: 151px;
+				height: 14px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				font-weight: 500;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.lorab{
+				X: 91px;
+				Y: 3866px;
+				width: 326px;
+				height: 88px;
+				font-family: "Lora";
+				font-size: 16px;
+				line-height: 1.5;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.mon2{
+				X: 809px;
+				Y: 3830px;
+				width: 189px;
+				height: 14px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				font-weight: 500;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.mon2{
+				X: 809px;
+				Y: 3928px;
+				width: 133px;
+				height: 13px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				letter-spacing: 1.8px;
+				text-align: left;
+				color: #EBEBEB;
+			}
 		}
 	}
+}
 //* ssp *//
 .note{
 	padding-left: 30px;
@@ -222,7 +419,7 @@ $lstb:#313131;
 			Y: 37px;
 			width: 305px;
 			height: 37px;
-			font-family: Montserrat;
+			font-family: "Montserrat";
 			font-size: 18px;
 			font-weight: 800;
 			line-height: 1.33;
@@ -235,7 +432,7 @@ $lstb:#313131;
 			Y: 52px;
 			width: 535px;
 			height: 10px;
-			font-family: Montserrat;
+			font-family: "Montserrat";
 			font-size: 14px;
 			font-weight: 500;
 			line-height: 1.71;
@@ -248,7 +445,7 @@ $lstb:#313131;
 			Y: 269px;
 			width: 378px;
 			height: 37px;
-			font-family: Lora;
+			font-family: "Lora";
 			font-size: 36px;
 			font-weight: bold;
 			line-height: 1.5;
@@ -272,7 +469,7 @@ $lstb:#313131;
 			Y: 528px;
 			width: 442px;
 			height: 14px;
-			font-family: Montserrat;
+			font-family: "Montserrat";
 			font-size: 15px;
 			font-weight: 500;
 			line-height: 2.13;
@@ -285,7 +482,7 @@ $lstb:#313131;
 			Y: 584px;
 			width: 634px;
 			height: 3594px;
-			font-family: Montserrat;
+			font-family: "Montserrat";
 			font-size: 18px;
 			font-weight: 500;
 			line-height: 1.5;
@@ -611,85 +808,53 @@ $lstb:#313131;
 @media only screen and (min-width: 1024px){
 .sponsor_media{
 	.header{
-		width: 99%;
-		font-size: 24px;
+		width: 1280px;
+		height: 25%;
 		.fltl{
-			font-size: 25px;
-			word-break: break-all;
-			width: 20%;
-			height: 100%;
-			padding-bottom: 30px;
-			padding-top: 15px;
+			X: 58px;
+			Y: 37px;
+			width: 305px;
+			height: 37px;
+			font-family: "Montserrat";
+			font-size: 18px;
+			font-weight: 800;
+			line-height: 1.33;
+			letter-spacing: 1.8px;
+			text-align: left;
+			color: #F5F5F5;
+			}
+			.fltl{
+				X: 721px;
+				Y: 52px;
+				width: 499px;
+				height: 10px;
+				font-family: "Montserrat";
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.71;
+				letter-spacing: 1.4px;
+				text-align: left;
+				color: #FFAE00;
+			}
+			.fltr{
+				X: 721px;
+				Y: 52px;
+				width: 499px;
+				height: 10px;
+				font-family: "Montserrat";
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.71;
+				letter-spacing: 1.4px;
+				text-align: left;
+				color: #FFAE00;
+			}
 		}
-		.fltr{
-			padding-top: 15px;
-			float: right;
-		}
-		.dropbtn {
-			background-color: none;
-			color: white;
-			padding: none;
-			border: none;
-			cursor: none;
-		}
-
-		.dropdown {
-			position: none;
-		}
-
-		.dropdown-content {
-			display: inline;
-			position: absolute;
-			right: 20px;
-			top: 35px;
-			background-color: none;
-			min-width: none;
-			box-shadow: none;
-			z-index: 1;
-		}
-
-		.dropdown-content a {
-			color: $orng;
-			text-decoration: none;
-			display: inline;
-			word-wrap: none;
-			width: 50%;
-			padding-bottom: 5px;
-		}
-
-		.dropdown-content a:hover {
-			background-color: black;
-		}
-
-		.dropdown:hover .dropdown-content {
-			display: block;
-		}
-
-		.dropdown:hover .dropbtn {
-			background-color: transparent;
-			color: white;
-		}
-		.drpi{
-			display: none;
-		}
-		.rgt{
-			padding-right: 40px;
+		.heading{
+			width: 1280px;
+			height: 711px;
 		}
 	}
-
-	.pic{
-
-		.lorab{
-			font-size: 36px;
-			padding-left: 90px;
-			width: 81%;
-		}
-
-		.line{
-			width: 10%;
-		}
-	}
-}
 }
 //*about page *//
 
@@ -835,7 +1000,7 @@ $lstb:#313131;
 		Y: 37px;
 		width: 305px;
 		height: 37px;
-		font-family: Montserrat;
+		font-family: "Montserrat";
 		font-size: 18px;
 		font-weight: 800;
 		line-height: 1.33;
@@ -848,7 +1013,7 @@ $lstb:#313131;
 			Y: 52px;
 			width: 499px;
 			height: 10px;
-			font-family: Montserrat;
+			font-family: "Montserrat";
 			font-size: 14px;
 			font-weight: 500;
 			line-height: 1.71;
@@ -861,7 +1026,7 @@ $lstb:#313131;
 			Y: 269px;
 			width: 974px;
 			height: 146px;
-			font-family: Lora;
+			font-family: "Lora";
 			font-size: 36px;
 			font-weight: bold;
 			line-height: 1.5;
@@ -880,7 +1045,7 @@ $lstb:#313131;
 			Y: 674px;
 			width: 668px;
 			height: 358px;
-			font-family: Lora;
+			font-family: "Lora";
 			font-size: 18px;
 			line-height: 1.33;
 			letter-spacing: 0.9px;
@@ -892,7 +1057,7 @@ $lstb:#313131;
 			Y: 1179px;
 			width: 664px;
 			height: 1076px;
-			font-family: Lora;
+			font-family: "Lora";
 			font-size: 18px;
 			line-height: 1.33;
 			letter-spacing: 0.9px;
@@ -911,7 +1076,7 @@ $lstb:#313131;
 				Y: 2438px;
 				width: 249px;
 				height: 24px;
-				font-family: Montserrat;
+				font-family: "Montserrat";
 				font-size: 24px;
 				font-weight: 500;
 				line-height: 1.5;
@@ -924,7 +1089,7 @@ $lstb:#313131;
 				Y: 2480px;
 				width: 661px;
 				height: 17px;
-				font-family: Lora;
+				font-family: "Lora";
 				font-size: 18px;
 				line-height: 1.33;
 				letter-spacing: 0.9px;
@@ -951,7 +1116,7 @@ $lstb:#313131;
 			width: 507px;
 			height: 563px;
 			background-color: #EBEBEB;
-			font-family: Lora;
+			font-family: "Lora";
 			font-size: 18px;
 			text-align: left;
 			color: #101010;
@@ -960,7 +1125,7 @@ $lstb:#313131;
 				Y: 3264px;
 				width: 337px;
 				height: 17px;
-				font-family: Montserrat;
+				font-family: "Montserrat";
 				font-size: 24px;
 				font-weight: 500;
 				line-height: 1.5;
@@ -986,7 +1151,7 @@ $lstb:#313131;
 			  Y: 3830px;
 				width: 151px;
 				height: 14px;
-				font-family: Montserrat;
+				font-family: "Montserrat";
 				font-size: 18px;
 				font-weight: 500;
 				text-align: left;
@@ -997,7 +1162,7 @@ $lstb:#313131;
 				Y: 3866px;
 				width: 326px;
 				height: 88px;
-				font-family: Lora;
+				font-family: "Lora";
 				font-size: 16px;
 				line-height: 1.5;
 				text-align: left;
@@ -1008,7 +1173,7 @@ $lstb:#313131;
 				Y: 3830px;
 				width: 189px;
 				height: 14px;
-				font-family: Montserrat;
+				font-family: "Montserrat";
 				font-size: 18px;
 				font-weight: 500;
 				text-align: left;
@@ -1039,5 +1204,186 @@ $lstb:#313131;
 }
 
 @media only screen and (min-width: 1024px){
-
+	.tickets_media{
+		.header{
+			width: 1280px;
+			height: 210px;
+			.fltl{
+				X: 58px;
+				Y: 37px;
+				width: 305px;
+				height: 37px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				font-weight: 800;
+				line-height: 1.33;
+				letter-spacing: 1.8px;
+				text-align: left;
+				color: #F5F5F5;
+			}
+			.fltr{
+				X: 301px;
+				Y: 52px;
+				width: 499px;
+				height: 10px;
+				font-family: "Montserrat";
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.71;
+				letter-spacing: 1.4px;
+				text-align: left;
+				color: #F5F5F5;
+			}
+		}
+		.heading{
+			width: 1280px;
+			height: 282px;
+			.lorab{
+				X: 91px;
+				Y: 229px;
+				width: 1067px;
+				height: 92px;
+				font-family: "Lora";
+				font-size: 36px;
+				font-weight: bold;
+				line-height: 1.5;
+				letter-spacing: 1.8px;
+				text-align: left;
+				color: #FFAE00;
+			}
+			.line{
+				X: 92px;
+				Y: 368px;
+				width: 136px;
+				height: 8px;
+				background-color: #FFFFFF;
+			}
+		}
+		article{
+			.whitebox{
+				X: 92px;
+				Y: 584px;
+				width: 786px;
+				height: 77px;
+				font-family: "Lora";
+				font-size: 21px;
+				line-height: 1.33;
+				letter-spacing: 1px;
+				text-align: left;
+				color: #101010;
+			}
+		}
+		.ticket-cost{
+			X: 91px;
+			Y: 732px;
+			width: 852px;
+			height: 1675px;
+			font-family: "Lora";
+			font-size: 18px;
+			line-height: 1.33px;
+			letter-spacing: 0.9px;
+			text-align: left;
+			color: #101010;
+			.ticket-cost{
+				X: 92px;
+				Y: 2509px;
+				width: 70px;
+				height: 18px;
+				font-family: "Montserrat";
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 2.25;
+				letter-spacing: 1.2px;
+				text-align: left;
+				color: #101010;
+			}
+			.confirm-purchase{
+				X: 92px;
+				Y: 2603px;
+				width: 171px;
+				height: 59px;
+				background-color: #FFAE00;
+			}
+		}
+		.Conference-Location{
+			width: 507px;
+			height: 563px;
+			background-color: #FFAE00;
+			font-family: "Lora";
+			font-size: 18px;
+			text-align: left;
+			color: #101010;
+			.mon{
+				X: 91px;
+				Y: 2854px;
+				width: 337px;
+				height: 17px;
+				font-family: "Montserrat";
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 1.5;
+				letter-spacing: 1.2px;
+				text-align: left;
+				color: #101010;
+			}
+		}
+		.greyspace{
+			X: 508px;
+			Y: 2760px;
+			width: 772px;
+			height: 563px;
+			background-color: #EBEBEB;
+		}
+		.lastpart{
+			X: 0px;
+			Y: 3324px;
+			width: 1280px;
+			height: 335px;
+			background-color: #313131;
+			.mon{
+				X: 90px;
+				Y: 3420px;
+				width: 151px;
+				height: 14px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				font-weight: 500;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.lorab{
+				X: 91px;
+				Y: 3456px;
+				width: 326px;
+				height: 88px;
+				font-family: "Lora";
+				font-size: 16px;
+				line-height: 1.5;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.mon2{
+				X: 809px;
+				Y: 3420px;
+				width: 189px;
+				height: 14px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				font-weight: 500;
+				text-align: left;
+				color: #EBEBEB;
+			}
+			.mon2{
+				X: 809px;
+				Y: 3518px;
+				width: 133px;
+				height: 13px;
+				font-family: "Montserrat";
+				font-size: 18px;
+				letter-spacing: 1.8px;
+				text-align: left;
+				color: #EBEBEB;
+			}
+		}
+	}
 }
