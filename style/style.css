@@ -77,6 +77,8 @@ table {
 .home .tickets {
   padding-top: 100px;
   color: #ffae00; }
+  .home .tickets .whitesp {
+    padding-left: 10px; }
 
 .days-until {
   position: absolute;
@@ -111,6 +113,9 @@ table {
     font-size: 15px;
     letter-spacing: 1px; }
 
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%; } }
 .note {
   padding-left: 30px;
   padding-right: 30px; }
@@ -163,6 +168,92 @@ table {
     letter-spacing: 0.8px;
     color: #ffae00; }
 
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%; } }
+@media only screen and (min-width: 1024px) {
+  .ssp_media .fltl {
+    X: 58px;
+    Y: 37px;
+    width: 305px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #F5F5F5; }
+  .ssp_media .dropdown-content {
+    X: 691px;
+    Y: 52px;
+    width: 535px;
+    height: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #F5F5F5; }
+  .ssp_media .lorab {
+    X: 92px;
+    Y: 269px;
+    width: 378px;
+    height: 37px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #FFAE00;
+    color: #D8930B; }
+  .ssp_media .tickets {
+    X: 89px;
+    Y: 525px;
+    width: 40%;
+    height: 40%; }
+    .ssp_media .tickets .whitesp {
+      width: 30%;
+      height: 30%; }
+  .ssp_media .note {
+    X: 453px;
+    Y: 528px;
+    width: 442px;
+    height: 14px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.13;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #101010; }
+  .ssp_media .whitebox {
+    X: 452px;
+    Y: 584px;
+    width: 634px;
+    height: 3594px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+  .ssp_media .greybox {
+    X: 1px;
+    Y: 777px;
+    width: 1279px;
+    height: 415px;
+    opacity: 0.5;
+    background-color: #EBEBEB; }
+  .ssp_media .Conference-Location {
+    X: 1px;
+    Y: 4212px;
+    width: 1279px;
+    height: 563px;
+    background-color: #FFAE00; } }
 .header {
   background-image: url("../back/b.jpg");
   background-repeat: no-repeat;
@@ -393,28 +484,28 @@ table {
   body {
     width: 100%; } }
 @media only screen and (min-width: 1024px) {
-  .header {
+  .sponsor_media .header {
     width: 99%;
     font-size: 24px; }
-    .header .fltl {
+    .sponsor_media .header .fltl {
       font-size: 25px;
       word-break: break-all;
       width: 20%;
       height: 100%;
       padding-bottom: 30px;
       padding-top: 15px; }
-    .header .fltr {
+    .sponsor_media .header .fltr {
       padding-top: 15px;
       float: right; }
-    .header .dropbtn {
+    .sponsor_media .header .dropbtn {
       background-color: none;
       color: white;
       padding: none;
       border: none;
       cursor: none; }
-    .header .dropdown {
+    .sponsor_media .header .dropdown {
       position: none; }
-    .header .dropdown-content {
+    .sponsor_media .header .dropdown-content {
       display: inline;
       position: absolute;
       right: 20px;
@@ -423,30 +514,29 @@ table {
       min-width: none;
       box-shadow: none;
       z-index: 1; }
-    .header .dropdown-content a {
+    .sponsor_media .header .dropdown-content a {
       color: #ffae00;
       text-decoration: none;
       display: inline;
       word-wrap: none;
       width: 50%;
       padding-bottom: 5px; }
-    .header .dropdown-content a:hover {
+    .sponsor_media .header .dropdown-content a:hover {
       background-color: black; }
-    .header .dropdown:hover .dropdown-content {
+    .sponsor_media .header .dropdown:hover .dropdown-content {
       display: block; }
-    .header .dropdown:hover .dropbtn {
+    .sponsor_media .header .dropdown:hover .dropbtn {
       background-color: transparent;
       color: white; }
-    .header .drpi {
+    .sponsor_media .header .drpi {
       display: none; }
-    .header .rgt {
+    .sponsor_media .header .rgt {
       padding-right: 40px; }
-
-  .pic .lorab {
+  .sponsor_media .pic .lorab {
     font-size: 36px;
     padding-left: 90px;
     width: 81%; }
-  .pic .line {
+  .sponsor_media .pic .line {
     width: 10%; } }
 .about-the-conference {
   padding-left: 20px;
@@ -551,6 +641,177 @@ table {
     font-size: 16px;
     line-height: 1.5; }
 
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%; } }
+@media only screen and (min-width: 1024px) {
+  .about_media .header {
+    width: 1280px;
+    height: 180px; }
+  .about_media .fltl {
+    X: 58px;
+    Y: 37px;
+    width: 305px;
+    height: 37px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #F5F5F5; }
+  .about_media .fltr {
+    X: 721px;
+    Y: 52px;
+    width: 499px;
+    height: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #F5F5F5; }
+  .about_media .heading {
+    X: 91px;
+    Y: 269px;
+    width: 974px;
+    height: 146px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #FFAE00; }
+  .about_media .whitesp {
+    X: 89px;
+    Y: 818px;
+    width: 301px;
+    height: 200px; }
+  .about_media .about-the-conference {
+    X: 453px;
+    Y: 674px;
+    width: 668px;
+    height: 358px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+  .about_media .venue {
+    X: 452px;
+    Y: 1179px;
+    width: 664px;
+    height: 1076px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+    .about_media .venue .ven {
+      X: 319px;
+      Y: 1578px;
+      width: 763px;
+      height: 469px; }
+  .about_media .Contact-Inquiries .mon {
+    X: 454px;
+    Y: 2438px;
+    width: 249px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #101010; }
+  .about_media .Contact-Inquiries .lorab {
+    X: 454px;
+    Y: 2480px;
+    width: 661px;
+    height: 17px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+  .about_media .Contact-Inquiries .box {
+    X: 563px;
+    width: 419px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: solid 1px #252525; }
+  .about_media .Contact-Inquiries .subm {
+    X: 563px;
+    Y: 2975px;
+    width: 168px;
+    height: 51px;
+    background-color: #FFAE00; }
+  .about_media .Conference-Location {
+    width: 507px;
+    height: 563px;
+    background-color: #EBEBEB;
+    font-family: Lora;
+    font-size: 18px;
+    text-align: left;
+    color: #101010; }
+    .about_media .Conference-Location .mon {
+      X: 91px;
+      Y: 3264px;
+      width: 337px;
+      height: 17px;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #101010; }
+  .about_media .greyspace {
+    X: 508px;
+    Y: 3170px;
+    width: 772px;
+    height: 563px;
+    background-color: #EBEBEB; }
+  .about_media .lastpart {
+    Y: 3734px;
+    width: 1280px;
+    height: 294;
+    background-color: #313131; }
+    .about_media .lastpart .mon {
+      X: 90px;
+      Y: 3830px;
+      width: 151px;
+      height: 14px;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      color: #EBEBEB; }
+    .about_media .lastpart .lorab {
+      X: 91px;
+      Y: 3866px;
+      width: 326px;
+      height: 88px;
+      font-family: Lora;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+      color: #EBEBEB; }
+    .about_media .lastpart .mon2 {
+      X: 809px;
+      Y: 3830px;
+      width: 189px;
+      height: 14px;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      color: #EBEBEB; } }
 .ticket-cost {
   padding-left: 30px;
   padding-right: 30px;
@@ -561,5 +822,9 @@ table {
     color: #ffae00; }
   .ticket-cost .mon {
     font-weight: bold; }
+
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
