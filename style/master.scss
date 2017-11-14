@@ -97,6 +97,9 @@ $lstb:#313131;
 		.tickets{
 			padding-top: 100px;
 			color: $orng;
+			.whitesp{
+				padding-left: 10px;
+			}
 	}
 }
 .days-until{
@@ -145,7 +148,7 @@ $lstb:#313131;
 
 @media only screen and (min-width: 1024px){
 	.home_media{
-		
+
 		}
 	}
 //* ssp *//
@@ -222,7 +225,7 @@ $lstb:#313131;
 			Y: 37px;
 			width: 305px;
 			height: 37px;
-			font-family: Montserrat;
+			font-family: 'Montserrat';
 			font-size: 18px;
 			font-weight: 800;
 			line-height: 1.33;
