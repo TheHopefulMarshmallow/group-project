@@ -141,6 +141,63 @@ $lstb:#313131;
 		letter-spacing: 1px;
 	}
 }
+.images-page{
+	margin-left: 20px;
+	.small-image{
+	width: 30%;
+	height: 30%;
+	}
+
+	.lorao{
+		margin-left: 10px;
+		font-size: 17px;
+		line-height: 1.41;
+		letter-spacing: 0.9px;
+		text-align: left;
+	}
+
+	.lorao{
+		margin-left: 10px;
+		font-size: 21px;
+		font-weight: bold;
+		line-height: 1.71;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+
+	.sponser-on-home{
+		margin-top: 20px;
+		padding: 20px;
+		margin-right: 33px;
+		background-color: $orng;
+	}
+
+	.mon{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.73;
+		letter-spacing: 0.9px;
+		text-align: center;
+		color: white;
+	}
+
+	.small-images{
+	width: 50%;
+	height: 50%;
+	margin: 10px;
+	}
+
+	.orange{
+	font-family: "Montserrat";
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 1.71;
+	letter-spacing: 1px;
+	text-align: left;
+	color: $orng;
+	margin: 10px;
+	}
+}
 @media only screen and (max-width: 320px) {
   body {
     width: 100%; }
@@ -316,7 +373,7 @@ $lstb:#313131;
 //* is da sponser page mang *//
 
 .header{
-	background-image: url("../back/b.jpg");
+	background-image: url("../images/b.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 95%;
@@ -396,7 +453,7 @@ $lstb:#313131;
 		padding-left: 20px;
 		font-size: 24px;
 	}
-	background-image: url("../back/b.jpg");
+	background-image: url("../images/b.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 101%;
@@ -431,7 +488,7 @@ $lstb:#313131;
 	}
 
 	.whitesp{
-		margin-top: 125px;
+		margin-top: 150px;
 		margin-left: 5px;
     width: 98.5%;
 		height: 120%;
@@ -745,7 +802,7 @@ $lstb:#313131;
 		padding-bottom: 15px;
 	}
 	.ven{
-		background-image: url("../back/1.jpg");
+		background-image: url("../images/1.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
