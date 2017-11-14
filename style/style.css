@@ -338,7 +338,9 @@ table {
       font-family: "Montserrat";
       padding-bottom: 10px; }
   .tickets .whitesp {
-    width: 100%;
+    margin-top: 125px;
+    margin-left: 5px;
+    width: 98.5%;
     height: 120%;
     background-color: #d18e12; }
   .tickets .lorab {
