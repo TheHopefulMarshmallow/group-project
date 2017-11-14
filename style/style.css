@@ -113,6 +113,50 @@ table {
     font-size: 15px;
     letter-spacing: 1px; }
 
+.images-page {
+  margin-left: 20px; }
+  .images-page .small-image {
+    width: 30%;
+    height: 30%; }
+  .images-page .lorao {
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 1.41;
+    letter-spacing: 0.9px;
+    text-align: left; }
+  .images-page .lorao {
+    margin-left: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left; }
+  .images-page .sponser-on-home {
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 33px;
+    background-color: #ffae00; }
+  .images-page .mon {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: white; }
+  .images-page .small-images {
+    width: 50%;
+    height: 50%;
+    margin: 10px; }
+  .images-page .orange {
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffae00;
+    margin: 10px; }
+
 @media only screen and (max-width: 320px) {
   body {
     width: 100%; } }
@@ -255,7 +299,7 @@ table {
     height: 563px;
     background-color: #FFAE00; } }
 .header {
-  background-image: url("../back/b.jpg");
+  background-image: url("../images/b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 95%;
@@ -305,7 +349,7 @@ table {
     float: right; }
 
 .heading {
-  background-image: url("../back/b.jpg");
+  background-image: url("../images/b.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 101%;
@@ -338,7 +382,7 @@ table {
       font-family: "Montserrat";
       padding-bottom: 10px; }
   .tickets .whitesp {
-    margin-top: 125px;
+    margin-top: 150px;
     margin-left: 5px;
     width: 98.5%;
     height: 120%;
@@ -580,7 +624,7 @@ table {
     letter-spacing: 0.8px;
     padding-bottom: 15px; }
   .venue .ven {
-    background-image: url("../back/1.jpg");
+    background-image: url("../images/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
