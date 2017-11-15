@@ -903,7 +903,166 @@ table {
 @media only screen and (max-width: 320px) {
   body {
     width: 100%; } }
-.index .tickets {
-  padding-top: 140px; }
+@media only screen and (min-width: 1024px) {
+  .tickets_media .header {
+    width: 1280px;
+    height: 210px; }
+    .tickets_media .header .fltl {
+      X: 58px;
+      Y: 37px;
+      width: 305px;
+      height: 37px;
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.33;
+      letter-spacing: 1.8px;
+      text-align: left;
+      color: #F5F5F5; }
+    .tickets_media .header .fltr {
+      X: 301px;
+      Y: 52px;
+      width: 499px;
+      height: 10px;
+      font-family: "Montserrat";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.71;
+      letter-spacing: 1.4px;
+      text-align: left;
+      color: #F5F5F5; }
+  .tickets_media .heading {
+    width: 1280px;
+    height: 282px; }
+    .tickets_media .heading .lorab {
+      X: 91px;
+      Y: 229px;
+      width: 1067px;
+      height: 92px;
+      font-family: "Lora";
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 1.8px;
+      text-align: left;
+      color: #FFAE00; }
+    .tickets_media .heading .line {
+      X: 92px;
+      Y: 368px;
+      width: 136px;
+      height: 8px;
+      background-color: #FFFFFF; }
+  .tickets_media article .whitebox {
+    X: 92px;
+    Y: 584px;
+    width: 786px;
+    height: 77px;
+    font-family: "Lora";
+    font-size: 21px;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #101010; }
+  .tickets_media .ticket-cost {
+    X: 91px;
+    Y: 732px;
+    width: 852px;
+    height: 1675px;
+    font-family: "Lora";
+    font-size: 18px;
+    line-height: 1.33px;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+    .tickets_media .ticket-cost .ticket-cost {
+      X: 92px;
+      Y: 2509px;
+      width: 70px;
+      height: 18px;
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 2.25;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #101010; }
+    .tickets_media .ticket-cost .confirm-purchase {
+      X: 92px;
+      Y: 2603px;
+      width: 171px;
+      height: 59px;
+      background-color: #FFAE00; }
+  .tickets_media .Conference-Location {
+    width: 507px;
+    height: 563px;
+    background-color: #FFAE00;
+    font-family: "Lora";
+    font-size: 18px;
+    text-align: left;
+    color: #101010; }
+    .tickets_media .Conference-Location .mon {
+      X: 91px;
+      Y: 2854px;
+      width: 337px;
+      height: 17px;
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #101010; }
+  .tickets_media .greyspace {
+    X: 508px;
+    Y: 2760px;
+    width: 772px;
+    height: 563px;
+    background-color: #EBEBEB; }
+  .tickets_media .lastpart {
+    X: 0px;
+    Y: 3324px;
+    width: 1280px;
+    height: 335px;
+    background-color: #313131; }
+    .tickets_media .lastpart .mon {
+      X: 90px;
+      Y: 3420px;
+      width: 151px;
+      height: 14px;
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      color: #EBEBEB; }
+    .tickets_media .lastpart .lorab {
+      X: 91px;
+      Y: 3456px;
+      width: 326px;
+      height: 88px;
+      font-family: "Lora";
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+      color: #EBEBEB; }
+    .tickets_media .lastpart .mon2 {
+      X: 809px;
+      Y: 3420px;
+      width: 189px;
+      height: 14px;
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      color: #EBEBEB; }
+    .tickets_media .lastpart .mon2 {
+      X: 809px;
+      Y: 3518px;
+      width: 133px;
+      height: 13px;
+      font-family: "Montserrat";
+      font-size: 18px;
+      letter-spacing: 1.8px;
+      text-align: left;
+      color: #EBEBEB; } }
 
 /*# sourceMappingURL=style.css.map */
