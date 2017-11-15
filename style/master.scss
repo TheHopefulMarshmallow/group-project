@@ -488,7 +488,7 @@ $lstb:#313131;
 	}
 
 	.whitesp{
-		margin-top: 150px;
+		margin-top: 50px;
 		margin-left: 5px;
     width: 98.5%;
 		height: 120%;
@@ -1102,4 +1102,11 @@ $lstb:#313131;
 
 @media only screen and (min-width: 1024px){
 
+}
+
+
+.index{
+	.tickets{
+		padding-top: 140px;
+	}
 }
